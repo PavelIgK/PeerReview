@@ -5,7 +5,7 @@ public class ProgrammersDay {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите год:");
         int year = scanner.nextInt();
-        System.out.println(isLeapYear(year) ? "12.09.2000" : "13.09.2000");
+        System.out.println(isLeapYear(year) ? "12.09." + year : "13.09." + year);
     }
 
     public static boolean isLeapYear(int year) {
